@@ -7,23 +7,74 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-      <div id="map">
+     <div id="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;t=m&amp;vpsrc=0&amp;ll=49.83145,24.035168&amp;spn=0.066437,0.171661&amp;z=13&amp;output=embed">Map</iframe>
-      </div>
+	 </div> 
       <div id="wrapper">
         <header>
-          <h1 id="logo">rielter<mark>Off</mark>.net</h1>
-          <span id="text1">Знайти чи здати житло без посередників?<br />Легко, як два пальці об асфальт!</span>
+         <!-- <h1 id="logo">rielter<span>Off</span>.net</h1> -->
+          <img id="logo" src="img/rielterOff.png" alt="logo" />
+         <!-- <span id="text1">Знайти чи здати житло без посередників?<br />Легко, як два пальці об асфальт!</span> -->
+          <img id="text" src="img/someText.png" alt="" /> <br /><br /><br />
           <form id="search">
             <input type="text" />
-            <button id="searchButton"> Шукати житло </button>
-            <button id="addButton"> +Додати житло </button>
+            <button id="searchButton"><img src="img/dandruff.png" alt="dandruff" /> Шукати житло </button>
+            <button id="addButton"><img src="img/plus.png" alt="plus" /> Додати житло </button>
           </form>
         </header>
-
         <section>
-          search result
+        	<ul>
+        		<li><span id="address">Львів, вул. Скрипника,23/8</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">2 780</span><br /><span id="number">(050)67-26-466</span><span id="grn">грн/місяць</span><br/></li>
+           		<li><span id="address">Львів, вул. Листопадового чину,14</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">3 550</span><br /><span id="number">(067)67-26-678</span><span id="grn">грн/місяць</span><br/></li>
+        		<li><span id="address">Львів, вул. Ференца Ліста,9</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">2 200</span><br /><span id="number">(050)274-67-84</span><span id="grn">грн/місяць</span><br/></li>
+        		<li><span id="address">Львів, вул. Лесі Українки,14</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">1 900</span><br /><span id="number">(097)645-69-52</span><span id="grn">грн/місяць</span><br/></li>
+        		<li><span id="address">Львів, вул. Театральна,6</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">2 450</span><br /><span id="number">(032)297-56-21</span><span id="grn">грн/місяць</span><br/></li>
+        		<li><span id="address">Львів, пл. Ринок,25/2</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">2 000</span><br /><span id="number">(067)67-26-678</span><span id="grn">грн/місяць</span><br/></li>
+        		<li><span id="address">Львів, пров. Якова Раппапорта,13</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">2 800</span><br /><span id="number">(067)31-87-688</span><span id="grn">грн/місяць</span><br/></li>
+        		<li><span id="address">Львів, вул. Левицького К.,15</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">2 500</span><br /><span id="number">(032)25-26-466</span><span id="grn">грн/місяць</span><br/></li>
+        		<li><span id="address">Львів, вул. Наукова,7</span><img src="img/photoImg.png" alt="addPhoto" /><span id="price">2 000</span><br /><span id="number">(050)68-33-532</span><span id="grn">грн/місяць</span><br/></li>
+        	</ul>
         </section>
+      
       </div>
+      <div id="popUp">
+      	<form id="input">
+      		<div id="mail">
+      			<h3>E-mail</h3>
+      			<input type="text">
+      		</div>
+      		<div id="phone">
+      			<h3>Телефон</h3>
+      			<input type="text">
+      		</div>
+      		<div id="city">
+      			<h3>Місто</h3>
+      			<input type="text">
+      		</div>
+      		<div id="adr">
+      			<h3>Адреса</h3>
+      			<input type="text">
+      		</div>
+      		<div id="price2">
+      			<h3>Ціна</h3>
+      			<input type="text">
+      			<span>грн.місяць</span>
+      		</div>
+      		<div id="photos">
+      			<h3>Фотографії</h3>
+      			<div id="addPhotos">
+      				<img src="img/camera.png" alt="camera" />&nbsp; Перетягніть фотографії сюди,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; або <a href="index.html">завантажте з комп'ютера</a>
+      			</div>
+      		</div>
+      		<button id="save"> Зберегти </button>
+            <button id="cancel"> Скасувати </button>
+        </form>	
+      </div>
+      <div id="popUp2">
+        	<img src="img/photos.png" alt="photos">
+      </div>	
+      <div id="popUp3">
+        	<img src="img/photos.png" alt="photos">
+      </div>	
   </body>
 </html>

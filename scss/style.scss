@@ -1,0 +1,53 @@
+body, html      {height: 100%; min-height: 100%;}
+body            {position: relative; font-family:  Arial, Geneva, Helvetica, sans-serif;}
+
+#map            {width: 100%; height: 99%;}
+
+#wrapper        {width: 520px; max-height: 629px; background-color: #f2f2f2; position: absolute; top: 25px; bottom: 50px; left: 40px; box-shadow: 0 0 3px #999999; overflow: hidden;}
+
+/*****************HEADER***********************/
+#logo           {width: 225px; float: left;  padding: 10px; padding-left: 15px;}
+#text           {width: 250px; float: right; padding: 10px;}
+
+#search         {padding: 5px; padding-left: 10px;}
+#search input   {margin:  5px; width: 195px; border-radius: 5px; background-color: #F2F2F2; height: 25px; border: 1px solid #999999;}
+
+#search button  {margin:  5px; width: 122px; border-radius: 5px; padding: 5px; font: bold 12px/14px Arial; color: white;}
+#searchButton   {background-color: #E45635; border: 1px solid #E23917;}
+#addButton      {background-color: #7BA5D1; border: 1px solid #3B8FDB;}
+
+/*****************LIST*************************/
+ul              {padding-top:  35px; font: 13px/17px Arial, Helvetica, sans-serif }
+li              {min-height:   45px; padding: 10px 18px 0;}
+li img          {margin-right: 75px; margin-left: 75px;}
+li:hover        {background-color: #C2DFFF}
+
+#address        {float: left;  color: #3B8FDB; width: 250px; }
+#price          {float: right; color: #E45635; font: bold 17px/18px Arial;}
+#number         {float: left;  color: #686868;}
+#grn            {float: right; color: #ACACAD; font: bold  8px/13px Arial;}
+
+/*****************popUp************************/
+#popUp          {position: absolute; background-color: #F2F2F2;; box-shadow: 0 0 5px #999999; height: 380px; width: 350px; top: 130px; left: 270px;}
+#input          {}
+#input H3       {padding: 5px 0; font: bold 12px/14px Arial; color: #7F7F7F;}
+#input input    {border: 1px solid #A2CCF9; border-radius: 5px; height: 20px;}
+
+#mail           {width: 147px; float: left;  padding: 15px  8px 5px 20px; margin: 0;}
+#phone          {width: 147px; float: right; padding: 15px 20px 5px  8px; margin: 0;}
+#city           {padding: 15px  8px 5px 20px;}
+#adr            {padding: 0  8px 5px 20px;}
+#adr input      {width: 300px;}
+#price2         {padding: 0  8px 5px 20px;}
+#price2 input   {width: 60px;}
+#price2 span    {font: 12px/14px Arial; color: #8E8E8E;}
+#photos         {padding: 0  8px 5px 20px;}
+#addPhotos      {color: #8E8E8E; height: 50px; width: 300px; border: 1px solid #A2CCF9; border-radius: 5px; background-color: #E7F1F7; font: 12px/18px Arial; text-align: center; padding-top: 10px;}
+#addPhotos a    {color: #3795E2;}
+
+#input button   {border-radius: 5px; padding: 5px; font: bold 12px/14px Arial; color: white;}
+#save           {width: 75px; background-color: #90CE7C; border: 1px solid #6FCC5C; margin:  15px 7px 15px 20px;}
+#cancel         {width: 90px; background-color: #C9C9C9; border: 1px solid #BABABA; margin:  15px 20px 15px 7px;}
+
+#popUp2         {position: absolute; left: 580px; top: 545px}
+#popUp3         {position: absolute; left: 860px; top: 130px}
